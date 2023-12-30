@@ -8,7 +8,7 @@ This is a simple command-line YouTube downloader script using PyTube library. It
 - PyTube library (install it using `pip install pytube`)
 
 ## How to Use
-1. Run the script using `python script_name.py`.
+1. Run the script using `python yt_dl.py`.
 2. Choose an option from the menu:
     - **Download a video with the sound**
     - **Download a video without the sound**
