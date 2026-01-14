@@ -1,5 +1,7 @@
 from pytube import YouTube
 import os
+import tkinter
+
 
 def on_progress(stream, chunk, bytes_remaining):
     total_size = stream.filesize
@@ -13,7 +15,8 @@ def on_complete(stream, file_handle):
     print("Download completed!")
 
 while True:
-    print("--------------------------------------------------------Welcome on the PyTube Youtube Downloader !--------------------------------------------------------")
+    print("----------------------------------------------------------! Welcome on the PyTube Youtube Downloader !---------------------------------------------------------")
+    print("-------------------------------------------! Make sure to have a stable internet connexion while using this tool !---------------------------------------------")
     print("Menu\n")
     print("1. Download a video with the sound")
     print("2. Download a video without the sound")
